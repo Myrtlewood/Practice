@@ -1,0 +1,64 @@
+/**** below 1200px****/
+
+@media (max-width: 75em) {
+  .header-container {
+    max-width: 97rem;
+    justify-content: space-between;
+  }
+  .hero {
+    flex-direction: column;
+    align-items: space-between;
+    max-width: 97rem;
+    gap: 5rem;
+  }
+  .hero__image {
+    align-self: center;
+  }
+
+  .description__detail {
+    max-width: 97rem;
+  }
+  .description__list {
+    flex-wrap: wrap;
+  }
+  .description__item {
+    flex-direction: row;
+    flex: 0 47%;
+  }
+  .description__image {
+    width: 9.6rem;
+  }
+
+  .description__text {
+    align-items: flex-start;
+  }
+
+  .cta {
+    max-width: 97rem;
+  }
+
+  .cta__card {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .help {
+    max-width: 75rem;
+  }
+}
+
+/**** below 992px****/
+
+@media (max-width: 62em) {
+  .header {
+    padding: 1rem 0;
+  }
+  .header-container {
+    max-width: 75rem;
+  }
+
+  .spotify__logo {
+    width: 8.9rem;
+  }
+}

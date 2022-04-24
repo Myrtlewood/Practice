@@ -1,0 +1,25 @@
+.tab {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+}
+.menu {
+  background-color: green;
+  display: flex;
+  justify-content: space-between;
+
+  flex-grow: 1;
+}
+.menu__item {
+  display: inline-block;
+}
+
+.menu__btn {
+  background-color: blueviolet;
+  padding: 50px 100px;
+}
+.tab__content {
+  background-color: blue;
+}
